@@ -1,0 +1,125 @@
+.reward-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 275px;
+    height: 215px;
+    background: #1EC294 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.section_two {
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    font: normal normal bold 65px/80px Poppins;
+    letter-spacing: 0px;
+    /* color: #FFFFFF; */
+}
+
+.small_text {
+    text-align: center;
+    font: normal normal normal 20px Noto Sans;
+    letter-spacing: 0px;
+    line-height: 1.8;
+}
+
+.small_text_white {
+    text-align: left;
+    font: normal normal normal 20px Noto Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.black_bold {
+    text-align: center;
+    font: bold 65px/80px Poppins;
+    font-weight: bolder;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.blk-centered {
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font: normal normal normal 20px/38px Noto Sans;
+    letter-spacing: 0px;
+    color: #555555;
+}
+
+.black-bg {
+    /* height: 620px; */
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background-color: #E9FFF9;
+    grid-gap: 10%;
+    background: #191919 0% 0% no-repeat padding-box;
+}
+
+.white {
+    font: normal normal bold 65px/80px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.mutual_investment {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.box {
+    width: 275px;
+    height: 215px;
+    background: #333333 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.phone-img{
+    height: 630px;
+    object-fit: cover;
+    object-position: top;
+    width: auto;
+}
+
+.h2{
+    margin-top: 120px;
+    text-align: left;
+    font: bold 800px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.subtitle{
+    text-align: left;
+font: normal normal normal 20px/32px Noto Sans;
+letter-spacing: 0px;
+color: #E9FFF9;
+}
