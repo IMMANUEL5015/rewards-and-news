@@ -1,0 +1,487 @@
+.about-intro{
+    background: transparent linear-gradient(246deg, #2AD999 0%, #189C7F 100%) 0% 0% no-repeat padding-box;
+    height: 550px;
+}
+
+.about .welcome-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    color: white;
+}
+
+.about-mission{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.about .welcome-text h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.about-section-two{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+    background-color: #FEFFDB;
+}
+
+.about-section-two .logo-and-text{
+    display: flex;
+    align-items: center;
+}
+
+.about-section-two .logo-and-text div{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.about-section-two .logo-and-text img{
+    width: 140px;
+    height: 140px;
+}
+
+.about-section-two .logo-and-text h2{
+    font-size: 2rem;
+}
+
+.about-section-two .logo-and-text h2:nth-child(1){
+    color: #058762
+}
+
+.about-ceo{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+}
+
+.about-ceo img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about-ceo-text{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.team{
+    height: auto;
+    color: white;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.team-title{
+    color:#058762;
+}
+
+.team-members{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.team-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member div{
+    background-color: #484848;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.team-member small{
+    color: rgb(182, 176, 176);
+}
+
+.become-a-part{
+    background-color: white;
+    opacity: 1;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.become-a-part .xyz{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.become-a-part .zyx{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 90px #0000000A;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 50px;
+}
+
+.become-a-part .zyx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.become-a-part .zyx div{
+    width: 100px;
+    height: 100px;
+    background-color: #E9FFF9;
+    border-radius: 50%;
+}
+
+.become-a-part .zyx h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.join-the-team{
+    width: 80%;
+    height: 300px;
+    background: transparent linear-gradient(247deg, #03A678 0%, #027A58 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    margin: 100px auto 0px auto;
+    position: relative;
+}
+
+.join-the-team .logo-one{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.join-the-team .logo-two{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.join-the-team div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.join-the-team .fp{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.join-the-team .sp{
+    margin-bottom: 10px;
+}
+
+.join-the-team button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1440px){
+    .about-ceo-text{
+        padding-left: 100px;
+    }  
+}
+
+@media screen and (max-width: 1024px){
+    .about-ceo-text{
+        padding-left: 50px;
+    } 
+    
+    .team{
+        padding: 50px;
+    }
+
+    .team-members{
+        grid-gap: 20px;
+    }
+
+    .become-a-part .xyz{
+        grid-gap: 10px;
+    }
+
+    .become-a-part .zyx {
+        padding: 20px;
+    }
+
+    .become-a-part .zyx h3{
+        font-size: 0.9rem;
+    }
+
+    .become-a-part .zyx p{
+        font-size: 0.8rem;
+    }
+
+    .join-the-team .logo-one{
+        left: 50px;
+    }
+    
+    .join-the-team .logo-two{
+        right: 20px;
+    }
+
+    .join-the-team .fp{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .join-the-team .sp{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about .welcome-text h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .about-section-two{
+        padding: 50px;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .about-mission{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .about-ceo-text{
+        padding-left: 0px;
+    } 
+    
+    .about-ceo{
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        grid-gap: 5%;
+    }
+
+    .about-ceo-text div{
+        font-size: 0.8rem;
+    }
+
+    .about-ceo img{
+        height: 350px;
+    }
+
+    .team{
+        padding: 20px;
+    }
+
+    .team-members{
+        grid-gap: 10px;
+    }
+
+    .become-a-part .xyz{
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .become-a-part .zyx h3{
+        font-size: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .become-a-part .zyx p{
+        font-size: 0.7rem;
+    }
+
+    .become-a-part .zyx div{
+        width: 80px;
+        height: 80px;
+    }
+
+    .join-the-team{
+        width: 100%;
+    }
+
+    .join-the-team .logo-one{
+        left: 30px;
+    }
+    
+    .join-the-team .logo-two{
+        right: 10px;
+    }
+
+    .join-the-team .fp{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+    .join-the-team .sp{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .about .welcome-text h1{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .about .welcome-text p{
+        text-align: center;
+        font-size: 0.8rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        line-height: 1.3rem;
+    }
+
+    .about-section-two{
+        padding: 20px;
+    }
+
+    .about-section-two .logo-and-text img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .about-section-two .logo-and-text h2{
+        font-size: 1.5rem;
+    }
+
+    .about-ceo{
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .about-ceo-text div{
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+    .team-members{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        margin-top: 20px;
+    }
+
+    .become-a-part{
+        padding: 20px;
+    }
+
+    
+    .join-the-team{
+        height: 400px;
+        margin: 20px auto 0px auto;
+    }
+
+    .join-the-team .logo-one{
+        top: 300px;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .join-the-team .logo-two{
+        right: 50px;
+        top: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .join-the-team div{
+        width: 80%;
+    }
+
+    .join-the-team .fp{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .join-the-team .sp{
+        font-size: 0.7rem;
+    }
+
+    .join-the-team button{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .about-ceo-text div{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .team-members{
+        grid-gap: 10px;
+    }
+
+    .become-a-part .xyz {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .about-section-two{
+        padding: 20px;
+    }
+
+    .about-section-two .logo-and-text div{
+        margin-left: 10px;
+    }
+
+    .team-members{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        margin-top: 20px;
+    }
+
+    .team{
+        padding: 50px;
+    }
+
+    .become-a-part .xyz {
+        width: 90%;
+    }
+
+    .join-the-team .fp {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+}
