@@ -1,125 +1,252 @@
 .reward-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .box1 {
-    width: 275px;
-    height: 215px;
-    background: #1EC294 0% 0% no-repeat padding-box;
-    border-radius: 12px;
-    margin-top: 50px;
+  width: 275px;
+  height: 215px;
+  background: #1ec294 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  margin-top: 50px;
 }
 
 .section_two {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.section_three {
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sm_img {
+  max-width: 100%;
+  margin: auto;
 }
 
 .green {
-    font: normal normal bold 65px/80px Poppins;
-    letter-spacing: 0px;
-    /* color: #FFFFFF; */
+  font: 35px;
+  font-weight: bolder;
+  letter-spacing: 0px;
+  /* color: #FFFFFF; */
 }
 
 .small_text {
-    text-align: center;
-    font: normal normal normal 20px Noto Sans;
-    letter-spacing: 0px;
-    line-height: 1.8;
+  text-align: center;
+  font: normal normal normal 20px Noto Sans;
+  letter-spacing: 0px;
+  line-height: 1.8;
 }
 
 .small_text_white {
-    text-align: left;
-    font: normal normal normal 20px Noto Sans;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+  text-align: left;
+  font: normal normal normal 20px Noto Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 
 .black_bold {
-    text-align: center;
-    font: bold 65px/80px Poppins;
-    font-weight: bolder;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .blk-centered {
-    align-items: center;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    font: normal normal normal 20px/38px Noto Sans;
-    letter-spacing: 0px;
-    color: #555555;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font: normal normal normal 20px/38px Noto Sans;
+  letter-spacing: 0px;
+  color: #555555;
+}
+
+.investments_app_img {
+  width: 100%;
+  max-width: 602px;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .black-bg {
-    /* height: 620px; */
-    display: grid;
-    grid-template-columns: 50% 40%;
-    background-color: #E9FFF9;
-    grid-gap: 10%;
-    background: #191919 0% 0% no-repeat padding-box;
+  /* height: 620px; */
+  display: grid;
+  grid-template-columns: 50% 40%;
+  background-color: #e9fff9;
+  grid-gap: 10%;
+  background: #191919 0% 0% no-repeat padding-box;
 }
 
 .white {
-    font: normal normal bold 65px/80px Poppins;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+  font: normal normal bold 65px/80px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 
 .mutual_investment {
-    display: grid;
-    grid-template-columns: 35% 65%;
+  display: grid;
+  grid-template-columns: 35% 65%;
 }
 
 .boxes {
-    display: flex;
-    justify-content: space-between;
-    max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
 }
-
+.section_nine_text {
+  margin: 10px;
+  padding-top: 10rem;
+}
+.smm {
+  margin-left: 1rem;
+}
 .box {
-    width: 275px;
-    height: 215px;
-    background: #333333 0% 0% no-repeat padding-box;
-    border-radius: 12px;
-    margin-top: 50px;
+  width: 275px;
+  height: 215px;
+  background: #333333 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+.boxes2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
 }
 
-.phone-img{
-    height: 630px;
-    object-fit: cover;
-    object-position: top;
-    width: auto;
+.box2 {
+  width: 40%;
+  height: 215px;
+  background: #333333 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  margin: 10px;
 }
 
-.h2{
-    margin-top: 120px;
-    text-align: left;
-    font: bold 800px Poppins;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+.phone-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  max-height: 630px;
 }
 
-.subtitle{
-    text-align: left;
-font: normal normal normal 20px/32px Noto Sans;
-letter-spacing: 0px;
-color: #E9FFF9;
+.h2 {
+  margin-top: 120px;
+  text-align: left;
+  font-size: 60px !important;
+  font-family: Poppins;
+  font-weight: bolder;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 20px;
+  font-family: Noto Sans;
+  letter-spacing: 0px;
+  color: #e9fff9;
+  max-width: 600px;
+}
+
+.intro_mainx {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 1800px;
+  margin: 0 auto !important;
+  padding: 10px;
+  justify-content: space-between;
+}
+.fifty {
+  width: 50%;
+}
+.intro {
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .boxes {
+    display: none;
+  }
+  .blk {
+    display: flex;
+    flex-direction: column;
+  }
+  .box2 {
+    height: 10rem;
+  }
+  .phone-img {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .boxes {
+    display: none;
+  }
+  .fifty {
+    width: 85%;
+    margin: auto;
+  }
+  .h2 {
+    text-align: center;
+  }
+  .subtitle {
+    width: 80%;
+    max-width: 85%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .investments_app_img {
+    margin: auto;
+  }
+  .coin1 {
+    position: relative;
+    top: 150px;
+    left: -90px;
+    height: 100px;
+  }
+
+  .img_cnt {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.black-bg2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #e9fff9;
+  background: #191919 0% 0% no-repeat padding-box;
+  justify-content: space-between;
+}
+.blk {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  background-color: #e9fff9;
+  background: #191919 0% 0% no-repeat padding-box;
+  justify-content: space-between;
+  margin: 0 auto;
 }

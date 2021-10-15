@@ -4,7 +4,6 @@ import Header from '../../components/header/Header';
 import MatadorLogo from '../../svgs/group_9296.svg';
 import InvestmentCard from '../../components/investmentCard';
 import Footer from '../../components/footer/Footer';
-import SectionTwoLogo from '../../svgs/group_9408.svg';
 import SecurePaymentCard from '../../components/securePaymentCard';
 
 function Landing() {
@@ -17,12 +16,12 @@ function Landing() {
             }}>
                 <Header />
 
-                <div className="intro_main">
+                <div className="intro_mainx">
                     <div className="show_on_mobile">
                         <img src={MatadorLogo} alt="Matador Logo" className="matador_logo" />
                     </div>
                     <div></div>
-                    <div className="">
+                    <div className="fifty">
                         <h2 className="h2">Reward</h2>
                         <p className="subtitle">MCras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed. Nam At Venenatis Enim, Ac Malesuada Ex. Etiam Blandit Neque. </p>
 
@@ -36,7 +35,7 @@ function Landing() {
 
 
                     <div className="investments_app_img">
-                        <img src={MatadorLogo} alt="Matador Logo" className="matador_logo hide_on_mobile" />
+                        <img src={MatadorLogo} alt="Matador Logo" className="matador_logo hide_on_mobile coin1" />
                         <img src="/assets/Reward1.png" alt="Investments App"
                             className="mask_group" />
                     </div>
@@ -47,37 +46,41 @@ function Landing() {
                     <p className="green">Buy</p>
                     <p className="black_bold">Gift Cards</p>
                     <p className="small_text">
-                        Cras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed. <br />
+                        Cras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed.
                         Nam At Venenatis Enim, Ac Malesuada Ex.
                         Etiam Blandit Neque
-                        <br /> Non Turpis Porta, A Sagittis Justo Feugiat.
+                        Non Turpis Porta, A Sagittis Justo Feugiat.
                     </p>
                 </div>
             </section>
 
             <section className="section_three">
-                <img src="/assets/giftCard1.png" alt="Group 9407" />
+                <img src="/assets/giftCard1.png" alt="Group 9407" className="sm_img" />
             </section>
 
 
-            <section className="black-bg">
-                <div className="mutual_investment">
-                    <div></div>
-                    <div className="phone-img">
-                    <img src="/assets/mobile.png" className="phone-img" alt="Mutual Investment" />
+            <section className="black-bg2">
+                <div className="blk">
+                    <div className="img_cnt">
+                        <div className="phone-img">
+                            <img src="/assets/mobile.png" className="phone-img lay_img" alt="Mutual Investment" />
+                        </div>
                     </div>
-                </div>
 
-                <div className="section_nine_text">
-                    <p className="green">Loyalty</p>
-                    <p className="white">Rewards</p>
-                    <p className="small_text_white">
-                        <span>Cras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed. <br /> Nam At Venenatis Enim, Ac Malesuada Ex</span>
-                    </p>
+                    <div className="section_nine_text">
+                        <div className="">
 
-                    <div className="boxes">
-                        <div className="box"></div>
-                        <div className="box"></div>
+                            <p className="green">Loyalty</p>
+                            <p className="white">Rewards</p>
+                            <p className="small_text_white">
+                                <span>Cras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed. <br /> Nam At Venenatis Enim, Ac Malesuada Ex</span>
+                            </p>
+                        </div>
+
+                        <div className="boxes2">
+                            <div className="box2"></div>
+                            <div className="box2"></div>
+                        </div>
                     </div>
                 </div>
             </section>
