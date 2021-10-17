@@ -1,5 +1,5 @@
 import React from 'react';
-import './news.css';
+import './news.scss';
 import Header from '../../components/header/Header';
 import MatadorLogo from '../../svgs/group_9296.svg';
 import Footer from '../../components/footer/Footer';
@@ -23,11 +23,10 @@ function News() {
             }}>
                 <Header />
 
-                <div className="intro_main">
+                <div className="news_main">
                     <div className="show_on_mobile">
                         <img src={MatadorLogo} alt="Matador Logo" className="matador_logo" />
                     </div>
-                    <div></div>
                     <div className="">
                         <h2 className="title">Our News</h2>
                         <p className="subtitle">Cras Rutrum Aliquet Massa, Eu Luctus Nibh Egestas Sed. Nam <br /> At Venenatis Enim, Ac Malesuada Ex. Etiam Blandit Neque. </p>
@@ -54,11 +53,11 @@ function News() {
             <section className="newx">
                 <h2 className="top-headline">Top Headline</h2>
 
-                <div className="big-card">
+                <div className="big_card">
                     <img src="/assets/pexels-anastasia-shuraeva-7539959@2x.png" alt="Investments App"
                         className="news_image" />
 
-                    <div className="card-details">
+                    <div className="card_details">
                         <div className="">
                             <p className="details">5 hr ago - Investment - Matador</p>
                             <h3 className="headline">News Headline</h3>
@@ -80,7 +79,7 @@ function News() {
                                 <img src="/assets/phone.png" alt="Investments App"
                                     className="sm-img" />
                                 <div className="card-details">
-                                    <div className="">
+                                    <div className="news_content">
                                         <p className="sm-details">5 hr ago - Investment - Matador</p>
                                         <h3 className="small-headline">Interdum Convallis</h3>
 
